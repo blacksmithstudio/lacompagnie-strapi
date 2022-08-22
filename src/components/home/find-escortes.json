@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_find_escortes",
+  "info": {
+    "displayName": "find-escortes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "searchInput": {
+      "displayName": "input",
+      "type": "component",
+      "repeatable": true,
+      "component": "all-pages.input"
+    },
+    "filterDropdown": {
+      "displayName": "filter",
+      "type": "component",
+      "repeatable": true,
+      "component": "all-pages.filter"
+    },
+    "filterList": {
+      "displayName": "filter-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "all-pages.filter-list"
+    }
+  }
+}
