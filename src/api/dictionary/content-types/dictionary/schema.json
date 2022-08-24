@@ -1,0 +1,176 @@
+{
+  "kind": "singleType",
+  "collectionName": "dictionaries",
+  "info": {
+    "singularName": "dictionary",
+    "pluralName": "dictionaries",
+    "displayName": "dictionary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "ethnicity": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "min": 9,
+      "max": 9
+    },
+    "independentCategory": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 4,
+      "min": 4
+    },
+    "availableTo": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 3,
+      "min": 3
+    },
+    "age": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "max": 5,
+      "min": 5,
+      "component": "commun.select-option"
+    },
+    "height": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 4,
+      "min": 4
+    },
+    "bodyType": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 5,
+      "min": 5
+    },
+    "hairColor": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 5,
+      "min": 5
+    },
+    "eyeColor": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 6,
+      "min": 6
+    },
+    "cupSize": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 6,
+      "min": 6
+    },
+    "languagesLabel": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 4,
+      "min": 4
+    },
+    "service": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 35,
+      "min": 35
+    },
+    "agencyCategory": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 3,
+      "min": 3
+    },
+    "weekday": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "commun.select-option",
+      "max": 7,
+      "min": 7
+    }
+  }
+}

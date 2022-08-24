@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_register_agencies",
+  "info": {
+    "displayName": "Agency",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "register.button"
+    },
+    "title": {
+      "type": "string",
+      "default": "Agency Profil"
+    },
+    "generalInfos": {
+      "type": "string",
+      "default": "General Infos"
+    },
+    "details": {
+      "type": "string",
+      "default": "Details"
+    },
+    "subscription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "register.subscriptions-option"
+    }
+  }
+}

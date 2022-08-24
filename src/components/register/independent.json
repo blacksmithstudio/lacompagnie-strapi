@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_register_independents",
+  "info": {
+    "displayName": "independent",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "register.button"
+    },
+    "title": {
+      "type": "string",
+      "default": "Independent Profil"
+    },
+    "generalInfos": {
+      "type": "string",
+      "default": "General Infos"
+    },
+    "body": {
+      "type": "string",
+      "default": "Body"
+    },
+    "calendar": {
+      "type": "richtext"
+    },
+    "spokenLanguage": {
+      "type": "string",
+      "default": "spoken languages"
+    },
+    "socialNetwork": {
+      "type": "string",
+      "default": "Social Network"
+    },
+    "bio": {
+      "type": "string",
+      "default": "Bio"
+    },
+    "price": {
+      "type": "string",
+      "default": "Price"
+    },
+    "mobility": {
+      "type": "string",
+      "default": "Mobility"
+    },
+    "service": {
+      "type": "string",
+      "default": "Services"
+    },
+    "subscriptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "register.subscriptions-option"
+    }
+  }
+}

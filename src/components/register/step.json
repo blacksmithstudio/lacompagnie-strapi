@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_register_steps",
+  "info": {
+    "displayName": "step",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "profil": {
+      "type": "string",
+      "default": "Profil"
+    },
+    "details": {
+      "type": "string",
+      "default": "Details"
+    },
+    "services": {
+      "type": "string",
+      "default": "Services"
+    },
+    "calendar": {
+      "type": "string",
+      "default": "Calendar"
+    },
+    "medias": {
+      "type": "string",
+      "default": "Medias"
+    },
+    "subscription": {
+      "type": "string",
+      "default": "Subscription"
+    }
+  }
+}

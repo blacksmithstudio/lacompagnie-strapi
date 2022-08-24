@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "cookie_texts",
+  "info": {
+    "singularName": "cookie-text",
+    "pluralName": "cookie-texts",
+    "displayName": "cookieText"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    }
+  }
+}
