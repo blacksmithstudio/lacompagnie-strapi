@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_register_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

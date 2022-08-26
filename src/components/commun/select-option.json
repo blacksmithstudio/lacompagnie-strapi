@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_commun_select_options",
+  "info": {
+    "displayName": "selectOption",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

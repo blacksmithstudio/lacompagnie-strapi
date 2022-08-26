@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_register_users",
+  "info": {
+    "displayName": "user",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "User profil"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "SignUp"
+    },
+    "generalInfos": {
+      "type": "string",
+      "default": "General Infos"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "register.button"
+    }
+  }
+}

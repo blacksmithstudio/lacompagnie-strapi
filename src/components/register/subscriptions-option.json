@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_register_subscriptions_options",
+  "info": {
+    "displayName": "subscriptionsOption",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  }
+}

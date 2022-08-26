@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_register_content_rules",
+  "info": {
+    "displayName": "contentRules",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "CONTENT RULES"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

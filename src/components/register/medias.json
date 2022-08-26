@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_register_medias",
+  "info": {
+    "displayName": "medias",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Add medias"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "photo": {
+      "displayName": "uploadAssets",
+      "type": "component",
+      "repeatable": false,
+      "component": "register.upload-assets"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "register.upload-assets"
+    }
+  }
+}
