@@ -70,16 +70,32 @@
       "type": "string",
       "default": "agencies"
     },
-    "button": {
-      "displayName": "button",
-      "type": "component",
-      "repeatable": true,
+    "login": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "header.button"
+      "type": "string",
+      "default": "Login"
+    },
+    "register": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Register"
+    },
+    "account": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Account"
     }
   }
 }
