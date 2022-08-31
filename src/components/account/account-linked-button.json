@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_account_account_linked_buttons",
+  "info": {
+    "displayName": "account-linked-button",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "discoverOurEscort": {
+      "type": "string",
+      "default": "Discover our escorts."
+    }
+  }
+}

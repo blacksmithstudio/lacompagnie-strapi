@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_account_dashboard_subscriptions",
+  "info": {
+    "displayName": "dashboard-subscription",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Subscription"
+    },
+    "timeLeftSubscription": {
+      "type": "string",
+      "default": "Time left Subscription"
+    },
+    "buttonPauseSubscription": {
+      "type": "string",
+      "default": "Pause Subscription"
+    },
+    "buttonResumeSubscription": {
+      "type": "string",
+      "default": "Resume Subscription"
+    }
+  }
+}

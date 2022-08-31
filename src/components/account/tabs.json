@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_account_tabs",
+  "info": {
+    "displayName": "tabs",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dashboard": {
+      "type": "string",
+      "default": "Dashboard"
+    },
+    "profil": {
+      "type": "string",
+      "default": "Profil"
+    },
+    "settings": {
+      "type": "string",
+      "default": "Settings"
+    }
+  }
+}

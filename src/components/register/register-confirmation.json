@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_register_register_confirmations",
+  "info": {
+    "displayName": "register-confirmation",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Account creation confirmation"
+    },
+    "content": {
+      "type": "string",
+      "default": "We invite you to verify your email address to confirm your account"
+    }
+  }
+}

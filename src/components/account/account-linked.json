@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_account_account_linkeds",
+  "info": {
+    "displayName": "account-linked",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Linked Profile"
+    },
+    "notFoundProfile": {
+      "type": "string",
+      "default": "You haven't liked any profile yet."
+    },
+    "buttonDiscoverOurEscort": {
+      "type": "string",
+      "default": "Discover our escort"
+    }
+  }
+}

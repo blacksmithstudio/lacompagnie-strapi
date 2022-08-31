@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_account_dashboards",
+  "info": {
+    "displayName": "dashboard",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Dashboard"
+    },
+    "dashboardStatistic": {
+      "displayName": "dashboard-statistic",
+      "type": "component",
+      "repeatable": false,
+      "component": "account.dashboard-statistic"
+    },
+    "dashboardSubscription": {
+      "displayName": "dashboard-subscription",
+      "type": "component",
+      "repeatable": false,
+      "component": "account.dashboard-subscription"
+    }
+  }
+}

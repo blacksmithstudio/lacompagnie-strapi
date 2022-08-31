@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_account_dashboard_statistics",
+  "info": {
+    "displayName": "dashboard-statistic",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Visites"
+    },
+    "visitCurrentMonth": {
+      "type": "string",
+      "default": "Visits over the current month:"
+    },
+    "visitSinceCreation": {
+      "type": "string",
+      "default": "Profile visits (since creation):"
+    }
+  }
+}

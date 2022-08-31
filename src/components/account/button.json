@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_account_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "pauseSubscription": {
+      "type": "string",
+      "default": "Pause subscription"
+    },
+    "resumeSubscription": {
+      "type": "string",
+      "default": "resume subscription"
+    }
+  }
+}

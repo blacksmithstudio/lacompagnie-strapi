@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_account_settings",
+  "info": {
+    "displayName": "setting",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "generalInfos": {
+      "type": "string",
+      "default": "General Infos"
+    },
+    "settingInput": {
+      "displayName": "settings-input",
+      "type": "component",
+      "repeatable": false,
+      "component": "account.settings-input"
+    },
+    "settingsButton": {
+      "displayName": "settingsButton",
+      "type": "component",
+      "repeatable": false,
+      "component": "account.settings-button"
+    },
+    "deleteModal": {
+      "displayName": "deleteModal",
+      "type": "component",
+      "repeatable": false,
+      "component": "account.delete-modal"
+    },
+    "changePassword": {
+      "type": "string",
+      "default": "Change Password"
+    },
+    "title": {
+      "type": "string",
+      "default": "Settings"
+    }
+  }
+}

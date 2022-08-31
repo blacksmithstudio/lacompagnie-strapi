@@ -2,7 +2,8 @@
   "collectionName": "components_register_subscriptions_options",
   "info": {
     "displayName": "subscriptionsOption",
-    "icon": "adjust"
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,18 @@
     },
     "info": {
       "type": "string"
+    },
+    "amount": {
+      "type": "float",
+      "default": 0
+    },
+    "canPause": {
+      "type": "boolean",
+      "default": false
+    },
+    "currency": {
+      "type": "string",
+      "default": "€"
     }
   }
 }

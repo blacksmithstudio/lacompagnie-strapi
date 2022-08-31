@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_account_settings_inputs",
+  "info": {
+    "displayName": "settings-input",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "newPassword": {
+      "type": "string",
+      "default": "New password"
+    },
+    "repeatPassword": {
+      "type": "string",
+      "default": "Repeat password"
+    }
+  }
+}
