@@ -168,6 +168,24 @@
       },
       "type": "string",
       "default": "Close"
+    },
+    "filter": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Filter by"
+    },
+    "chooseCanton": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "choose a canton"
     }
   }
 }
