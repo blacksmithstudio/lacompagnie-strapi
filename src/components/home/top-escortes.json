@@ -1,8 +1,19 @@
 {
   "collectionName": "components_home_top_escortes",
   "info": {
-    "displayName": "top-escortes"
+    "displayName": "top-escortes",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "top": {
+      "type": "string"
+    },
+    "escort": {
+      "type": "string"
+    },
+    "noResult": {
+      "type": "string"
+    }
+  }
 }

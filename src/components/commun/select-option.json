@@ -2,14 +2,15 @@
   "collectionName": "components_commun_select_options",
   "info": {
     "displayName": "selectOption",
-    "icon": "atlas"
+    "icon": "atlas",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "key": {
+    "label": {
       "type": "string"
     },
-    "label": {
+    "key": {
       "type": "string"
     }
   }
