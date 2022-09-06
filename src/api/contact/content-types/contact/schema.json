@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "forgot_passwords",
+  "collectionName": "contacts",
   "info": {
-    "singularName": "forgot-password",
-    "pluralName": "forgot-passwords",
-    "displayName": "forgotPassword",
-    "description": ""
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
   },
   "options": {
     "draftAndPublish": false
@@ -23,21 +22,20 @@
         }
       },
       "type": "string",
-      "default": "Forgot your password ?"
+      "default": "Contact"
     },
-    "subTitle": {
+    "email": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
-      "type": "string",
-      "default": "I enter my email to receive my reset link"
+      "type": "email"
     },
-    "successMessage": {
+    "phone": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "string"

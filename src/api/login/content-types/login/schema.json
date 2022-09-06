@@ -23,7 +23,7 @@
         }
       },
       "type": "string",
-      "default": "SignIn"
+      "default": "Sign in"
     },
     "subTitle": {
       "pluginOptions": {
@@ -32,7 +32,7 @@
         }
       },
       "type": "string",
-      "default": "I Connect"
+      "default": "I connect"
     },
     "linkForgotPassword": {
       "pluginOptions": {
@@ -41,7 +41,7 @@
         }
       },
       "type": "string",
-      "default": "Fortgot password ?"
+      "default": "Forgot password ?"
     }
   }
 }

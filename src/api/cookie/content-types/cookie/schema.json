@@ -1,10 +1,11 @@
 {
   "kind": "singleType",
-  "collectionName": "privacies",
+  "collectionName": "cookies",
   "info": {
-    "singularName": "privacy",
-    "pluralName": "privacies",
-    "displayName": "privacy"
+    "singularName": "cookie",
+    "pluralName": "cookies",
+    "displayName": "Cookie",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,22 +16,31 @@
     }
   },
   "attributes": {
-    "title": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Privacy"
-    },
     "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "text"
+    },
+    "acceptButton": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Accept"
+    },
+    "rejectButton": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Reject"
     }
   }
 }

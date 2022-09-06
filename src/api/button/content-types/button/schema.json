@@ -88,33 +88,6 @@
       "type": "string",
       "default": "Apply"
     },
-    "accept": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Accept"
-    },
-    "reject": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Reject"
-    },
-    "enter": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Enter"
-    },
     "save": {
       "pluginOptions": {
         "i18n": {

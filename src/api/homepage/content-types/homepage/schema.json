@@ -53,17 +53,6 @@
       },
       "type": "richtext"
     },
-    "contact": {
-      "displayName": "contact",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.contact"
-    },
     "allGirls": {
       "pluginOptions": {
         "i18n": {

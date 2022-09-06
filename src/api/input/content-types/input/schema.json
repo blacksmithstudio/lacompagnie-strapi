@@ -232,14 +232,14 @@
       "type": "string",
       "default": "Notes"
     },
-    "linkForYourCalendy": {
+    "calendly": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "string",
-      "default": "Link for your Calendy"
+      "default": "Link of your Calendy"
     },
     "photo": {
       "pluginOptions": {

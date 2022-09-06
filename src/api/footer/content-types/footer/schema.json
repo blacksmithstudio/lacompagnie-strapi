@@ -34,17 +34,6 @@
       "type": "string",
       "default": "Privacy Policies"
     },
-    "termsAndConditions": {
-      "displayName": "termsConditions",
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "commun.terms-conditions"
-    },
     "contactUs": {
       "pluginOptions": {
         "i18n": {
@@ -54,14 +43,24 @@
       "type": "string",
       "default": "contact us"
     },
-    "laCompagnie": {
+    "termsAndConditions": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "string",
-      "default": "La compagnie"
+      "default": "Terms and Conditions"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "commun.socials"
     }
   }
 }

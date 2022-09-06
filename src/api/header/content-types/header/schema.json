@@ -43,16 +43,59 @@
       "type": "string",
       "default": "Account"
     },
-    "links": {
-      "displayName": "links",
-      "type": "component",
-      "repeatable": true,
+    "home": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "header.links"
+      "type": "string",
+      "default": "Home"
+    },
+    "girls": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Girls"
+    },
+    "sm": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "SM"
+    },
+    "trans": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Trans"
+    },
+    "boys": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Boys"
+    },
+    "agencies": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Agencies"
     }
   }
 }
