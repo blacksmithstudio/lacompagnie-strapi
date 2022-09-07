@@ -96,9 +96,7 @@
           "localized": true
         }
       },
-      "component": "commun.select-option",
-      "max": 5,
-      "min": 5
+      "component": "commun.select-option"
     },
     "eyeColor": {
       "type": "component",
@@ -132,9 +130,7 @@
           "localized": true
         }
       },
-      "component": "commun.select-option",
-      "max": 4,
-      "min": 4
+      "component": "commun.select-option"
     },
     "service": {
       "type": "component",
@@ -144,9 +140,7 @@
           "localized": true
         }
       },
-      "component": "commun.select-option",
-      "max": 35,
-      "min": 35
+      "component": "commun.select-option"
     },
     "agencyCategory": {
       "type": "component",

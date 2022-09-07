@@ -32,10 +32,6 @@
     "changePassword": {
       "type": "string",
       "default": "Change Password"
-    },
-    "title": {
-      "type": "string",
-      "default": "Settings"
     }
   }
 }

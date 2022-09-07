@@ -54,17 +54,6 @@
       },
       "component": "register.independent"
     },
-    "medias": {
-      "displayName": "medias",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "register.medias"
-    },
     "agency": {
       "type": "component",
       "repeatable": false,
@@ -96,6 +85,17 @@
         }
       },
       "component": "register.register-confirmation"
+    },
+    "accountConfirmed": {
+      "displayName": "AccountConfirmed",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "register.account-confirmed"
     }
   }
 }

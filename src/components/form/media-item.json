@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_form_media_items",
+  "info": {
+    "displayName": "MediaItem"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "requirement": {
+      "type": "text"
+    }
+  }
+}

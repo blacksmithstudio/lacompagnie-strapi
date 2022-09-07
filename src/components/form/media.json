@@ -1,29 +1,31 @@
 {
-  "collectionName": "components_register_medias",
+  "collectionName": "components_form_media",
   "info": {
-    "displayName": "medias",
-    "icon": "archive",
+    "displayName": "Media",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
+      "default": "Medias"
+    },
+    "button": {
+      "type": "string",
       "default": "Add medias"
     },
-    "content": {
+    "modalContent": {
       "type": "richtext"
     },
     "photo": {
-      "displayName": "uploadAssets",
       "type": "component",
       "repeatable": false,
-      "component": "register.upload-assets"
+      "component": "form.media-item"
     },
     "video": {
       "type": "component",
       "repeatable": false,
-      "component": "register.upload-assets"
+      "component": "form.media-item"
     }
   }
 }

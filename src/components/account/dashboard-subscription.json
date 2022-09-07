@@ -17,11 +17,11 @@
     },
     "buttonPauseSubscription": {
       "type": "string",
-      "default": "Pause Subscription"
+      "default": "Pause subscription"
     },
     "buttonResumeSubscription": {
       "type": "string",
-      "default": "Resume Subscription"
+      "default": "Resume subscription"
     }
   }
 }

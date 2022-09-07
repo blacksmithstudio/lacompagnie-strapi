@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_form_socials",
+  "info": {
+    "displayName": "Social",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Socials media"
+    }
+  }
+}

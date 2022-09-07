@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_form_prices",
+  "info": {
+    "displayName": "Price",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Price"
+    }
+  }
+}

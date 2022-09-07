@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_form_payement_successes",
+  "info": {
+    "displayName": "PayementSuccess"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text",
+      "default": "Your payment has been approved !"
+    }
+  }
+}

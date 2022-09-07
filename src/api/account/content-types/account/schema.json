@@ -46,7 +46,7 @@
       },
       "component": "account.dashboard"
     },
-    "setting": {
+    "settings": {
       "displayName": "setting",
       "type": "component",
       "repeatable": false,
@@ -57,8 +57,7 @@
       },
       "component": "account.setting"
     },
-    "accountLinked": {
-      "displayName": "account-linked",
+    "liked": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -66,7 +65,7 @@
           "localized": true
         }
       },
-      "component": "account.account-linked"
+      "component": "account.liked-profile"
     }
   }
 }

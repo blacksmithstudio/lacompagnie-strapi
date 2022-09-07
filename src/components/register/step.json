@@ -30,6 +30,10 @@
     "subscription": {
       "type": "string",
       "default": "Subscription"
+    },
+    "title": {
+      "type": "string",
+      "default": "Step"
     }
   }
 }

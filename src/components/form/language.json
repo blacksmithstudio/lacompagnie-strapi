@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_form_languages",
+  "info": {
+    "displayName": "Language",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Spoken languages"
+    }
+  }
+}

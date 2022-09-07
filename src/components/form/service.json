@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_form_services",
+  "info": {
+    "displayName": "Service"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Services"
+    }
+  }
+}

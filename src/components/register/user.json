@@ -15,10 +15,6 @@
       "type": "string",
       "default": "SignUp"
     },
-    "generalInfos": {
-      "type": "string",
-      "default": "General Infos"
-    },
     "button": {
       "type": "component",
       "repeatable": false,

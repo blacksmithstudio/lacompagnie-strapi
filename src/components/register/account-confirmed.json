@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_register_account_confirmeds",
+  "info": {
+    "displayName": "AccountConfirmed"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "Confirmation of the current account..."
+    }
+  }
+}

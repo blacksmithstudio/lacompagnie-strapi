@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_account_liked_profiles",
+  "info": {
+    "displayName": "LikedProfile",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Liked profiles"
+    },
+    "discoverButton": {
+      "type": "string",
+      "default": "Discover our escorts"
+    },
+    "notFound": {
+      "type": "string",
+      "default": "You have not liked any profile yet"
+    }
+  }
+}

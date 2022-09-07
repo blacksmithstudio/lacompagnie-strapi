@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_form_biographies",
+  "info": {
+    "displayName": "Biography",
+    "icon": "vials"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Biography"
+    }
+  }
+}

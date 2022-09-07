@@ -7,10 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "default": "Dashboard"
-    },
     "dashboardStatistic": {
       "displayName": "dashboard-statistic",
       "type": "component",

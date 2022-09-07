@@ -15,19 +15,6 @@
     "title": {
       "type": "string",
       "default": "Agency Profil"
-    },
-    "generalInfos": {
-      "type": "string",
-      "default": "General Infos"
-    },
-    "details": {
-      "type": "string",
-      "default": "Details"
-    },
-    "subscription": {
-      "type": "component",
-      "repeatable": true,
-      "component": "register.subscriptions-option"
     }
   }
 }

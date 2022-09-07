@@ -1,14 +1,13 @@
 {
-  "collectionName": "components_register_content_rules",
+  "collectionName": "components_form_schedules",
   "info": {
-    "displayName": "contentRules",
-    "icon": "apple-alt"
+    "displayName": "Schedule"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "default": "CONTENT RULES"
+      "default": "Schedule"
     },
     "content": {
       "type": "richtext"

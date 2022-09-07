@@ -276,6 +276,15 @@
       },
       "type": "string",
       "default": "Expertise level"
+    },
+    "multipleChoice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Multiple choice"
     }
   }
 }

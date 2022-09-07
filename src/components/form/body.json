@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_form_bodies",
+  "info": {
+    "displayName": "Body",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Body"
+    }
+  }
+}
