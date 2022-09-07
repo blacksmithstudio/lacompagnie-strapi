@@ -11,10 +11,6 @@
       "type": "component",
       "repeatable": false,
       "component": "register.button"
-    },
-    "title": {
-      "type": "string",
-      "default": "Independent Profil"
     }
   }
 }

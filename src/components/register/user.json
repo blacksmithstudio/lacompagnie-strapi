@@ -7,14 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "default": "User profil"
-    },
-    "subtitle": {
-      "type": "string",
-      "default": "SignUp"
-    },
     "button": {
       "type": "component",
       "repeatable": false,
