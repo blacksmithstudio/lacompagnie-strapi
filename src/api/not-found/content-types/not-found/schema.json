@@ -4,7 +4,8 @@
   "info": {
     "singularName": "not-found",
     "pluralName": "not-founds",
-    "displayName": "NotFound"
+    "displayName": "Page 404",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false

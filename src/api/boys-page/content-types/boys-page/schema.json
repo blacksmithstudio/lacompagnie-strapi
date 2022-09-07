@@ -4,7 +4,7 @@
   "info": {
     "singularName": "boys-page",
     "pluralName": "boys-pages",
-    "displayName": "boysPage",
+    "displayName": "Page homme",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "filterResult": {
+    "pageContent": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -24,24 +24,8 @@
           "localized": true
         }
       },
-      "component": "commun.escorts-filter-result"
-    },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "findBoy": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Find a boy"
+      "component": "commun.page-content",
+      "required": true
     }
   }
 }

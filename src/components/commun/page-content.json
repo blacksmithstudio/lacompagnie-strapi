@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_commun_page_contents",
+  "info": {
+    "displayName": "pageContent",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "inputPlaceholder": {
+      "type": "string"
+    },
+    "notFound": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

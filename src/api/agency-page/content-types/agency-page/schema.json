@@ -4,7 +4,7 @@
   "info": {
     "singularName": "agency-page",
     "pluralName": "agency-pages",
-    "displayName": "agencyPage",
+    "displayName": "Page agence",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "filterResult": {
+    "pageContent": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -24,24 +24,8 @@
           "localized": true
         }
       },
-      "component": "commun.escorts-filter-result"
-    },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "findAgency": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Find an agency"
+      "component": "commun.page-content",
+      "required": true
     }
   }
 }

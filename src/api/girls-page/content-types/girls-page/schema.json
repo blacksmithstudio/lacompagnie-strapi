@@ -4,7 +4,7 @@
   "info": {
     "singularName": "girls-page",
     "pluralName": "girls-pages",
-    "displayName": "girlsPage",
+    "displayName": "Page fille",
     "description": ""
   },
   "options": {
@@ -16,8 +16,7 @@
     }
   },
   "attributes": {
-    "filterResult": {
-      "displayName": "escortsFilterResult",
+    "pageContent": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -25,24 +24,8 @@
           "localized": true
         }
       },
-      "component": "commun.escorts-filter-result"
-    },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "findGirl": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Find a girl"
+      "component": "commun.page-content",
+      "required": true
     }
   }
 }

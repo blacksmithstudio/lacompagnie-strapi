@@ -4,7 +4,8 @@
   "info": {
     "singularName": "privacy-policy",
     "pluralName": "privacy-policies",
-    "displayName": "Privacy policy"
+    "displayName": "Politiques de Confidentialité",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false

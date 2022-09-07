@@ -4,7 +4,7 @@
   "info": {
     "singularName": "trans-page",
     "pluralName": "trans-pages",
-    "displayName": "transPage",
+    "displayName": "Page Trans",
     "description": ""
   },
   "options": {
@@ -16,15 +16,7 @@
     }
   },
   "attributes": {
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
-    "filterResult": {
+    "pageContent": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -32,16 +24,8 @@
           "localized": true
         }
       },
-      "component": "commun.escorts-filter-result"
-    },
-    "findTrans": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "default": "Find a trans"
+      "component": "commun.page-content",
+      "required": true
     }
   }
 }
