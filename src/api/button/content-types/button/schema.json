@@ -168,6 +168,15 @@
       },
       "type": "string",
       "default": "Subscribe"
+    },
+    "showMore": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Show more"
     }
   }
 }
