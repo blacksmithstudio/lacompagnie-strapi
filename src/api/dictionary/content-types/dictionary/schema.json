@@ -165,6 +165,24 @@
       "component": "commun.select-option",
       "max": 7,
       "min": 7
+    },
+    "escortIn": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "escort in"
+    },
+    "backSoon": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Back soon"
     }
   }
 }

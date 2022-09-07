@@ -150,6 +150,24 @@
       },
       "type": "string",
       "default": "I call"
+    },
+    "detail": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Details"
+    },
+    "subscribe": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Subscribe"
     }
   }
 }

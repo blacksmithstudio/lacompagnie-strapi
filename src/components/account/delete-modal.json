@@ -2,7 +2,8 @@
   "collectionName": "components_account_delete_modals",
   "info": {
     "displayName": "deleteModal",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,7 @@
       "default": "Delete account"
     },
     "content": {
-      "type": "string",
+      "type": "text",
       "default": "Are you sure you want to delete your account? This operation is irreversible."
     },
     "yes": {
