@@ -312,6 +312,15 @@
       },
       "type": "string",
       "default": "Outcall"
+    },
+    "newPassword": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "New password"
     }
   }
 }

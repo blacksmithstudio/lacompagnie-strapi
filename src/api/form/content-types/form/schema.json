@@ -146,6 +146,17 @@
         }
       },
       "component": "form.detail"
+    },
+    "password": {
+      "displayName": "Password",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "form.password"
     }
   }
 }

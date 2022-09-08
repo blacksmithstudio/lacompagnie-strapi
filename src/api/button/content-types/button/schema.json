@@ -186,6 +186,15 @@
       },
       "type": "string",
       "default": "Choose"
+    },
+    "deleteAccount": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Delete account"
     }
   }
 }

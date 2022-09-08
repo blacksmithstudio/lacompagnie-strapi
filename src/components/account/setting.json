@@ -7,22 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "generalInfos": {
-      "type": "string",
-      "default": "General Infos"
-    },
-    "settingInput": {
-      "displayName": "settings-input",
-      "type": "component",
-      "repeatable": false,
-      "component": "account.settings-input"
-    },
-    "settingsButton": {
-      "displayName": "settingsButton",
-      "type": "component",
-      "repeatable": false,
-      "component": "account.settings-button"
-    },
     "deleteModal": {
       "displayName": "deleteModal",
       "type": "component",
