@@ -294,6 +294,24 @@
       },
       "type": "string",
       "default": "Confirm password"
+    },
+    "incall": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Incall"
+    },
+    "outcall": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Outcall"
     }
   }
 }

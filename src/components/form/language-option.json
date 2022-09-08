@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_form_language_options",
+  "info": {
+    "displayName": "LanguageOption"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

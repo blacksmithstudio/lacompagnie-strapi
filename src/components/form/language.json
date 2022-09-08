@@ -2,13 +2,21 @@
   "collectionName": "components_form_languages",
   "info": {
     "displayName": "Language",
-    "icon": "atom"
+    "icon": "atom",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
       "default": "Spoken languages"
+    },
+    "options": {
+      "displayName": "LanguageOption",
+      "type": "component",
+      "repeatable": true,
+      "component": "form.language-option",
+      "min": 1
     }
   }
 }

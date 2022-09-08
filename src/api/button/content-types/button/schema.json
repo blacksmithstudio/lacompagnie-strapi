@@ -177,6 +177,15 @@
       },
       "type": "string",
       "default": "Show more"
+    },
+    "choose": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Choose"
     }
   }
 }
