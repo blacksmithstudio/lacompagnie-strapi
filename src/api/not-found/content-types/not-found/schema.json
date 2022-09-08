@@ -42,6 +42,17 @@
       },
       "type": "string",
       "default": "Go to Home"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo",
+      "required": false
     }
   }
 }
