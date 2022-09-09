@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_email_templates",
+  "info": {
+    "displayName": "Template",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "string"
+    },
+    "subContent": {
+      "type": "richtext"
+    },
+    "preview": {
+      "type": "text"
+    }
+  }
+}
