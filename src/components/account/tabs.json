@@ -9,15 +9,18 @@
   "attributes": {
     "dashboard": {
       "type": "string",
-      "default": "Dashboard"
+      "default": "Dashboard",
+      "required": true
     },
     "profil": {
       "type": "string",
-      "default": "Profil"
+      "default": "Profil",
+      "required": true
     },
     "settings": {
       "type": "string",
-      "default": "Settings"
+      "default": "Settings",
+      "required": true
     }
   }
 }

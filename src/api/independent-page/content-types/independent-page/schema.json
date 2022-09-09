@@ -4,7 +4,8 @@
   "info": {
     "singularName": "independent-page",
     "pluralName": "independent-pages",
-    "displayName": "Page Indépendent"
+    "displayName": "Page Indépendent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -23,7 +24,8 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
     },
     "details": {
       "pluginOptions": {
@@ -32,7 +34,8 @@
         }
       },
       "type": "string",
-      "default": "My details"
+      "default": "My details",
+      "required": true
     },
     "about": {
       "pluginOptions": {
@@ -41,7 +44,8 @@
         }
       },
       "type": "string",
-      "default": "About "
+      "default": "About ",
+      "required": true
     },
     "services": {
       "pluginOptions": {
@@ -50,7 +54,8 @@
         }
       },
       "type": "string",
-      "default": "My services"
+      "default": "My services",
+      "required": true
     },
     "prices": {
       "pluginOptions": {
@@ -59,7 +64,8 @@
         }
       },
       "type": "string",
-      "default": "My prices"
+      "default": "My prices",
+      "required": true
     }
   }
 }

@@ -11,13 +11,15 @@
       "displayName": "dashboard-statistic",
       "type": "component",
       "repeatable": false,
-      "component": "account.dashboard-statistic"
+      "component": "account.dashboard-statistic",
+      "required": true
     },
     "dashboardSubscription": {
       "displayName": "dashboard-subscription",
       "type": "component",
       "repeatable": false,
-      "component": "account.dashboard-subscription"
+      "component": "account.dashboard-subscription",
+      "required": true
     }
   }
 }

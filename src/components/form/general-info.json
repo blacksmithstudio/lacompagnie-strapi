@@ -2,13 +2,15 @@
   "collectionName": "components_form_general_infos",
   "info": {
     "displayName": "General Info",
-    "icon": "american-sign-language-interpreting"
+    "icon": "american-sign-language-interpreting",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "default": "General info"
+      "default": "General info",
+      "required": true
     }
   }
 }

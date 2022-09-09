@@ -9,19 +9,23 @@
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Subscription"
+      "default": "Subscription",
+      "required": true
     },
     "timeLeftSubscription": {
       "type": "string",
-      "default": "Time left Subscription"
+      "default": "Time left Subscription",
+      "required": true
     },
     "buttonPauseSubscription": {
       "type": "string",
-      "default": "Pause subscription"
+      "default": "Pause subscription",
+      "required": true
     },
     "buttonResumeSubscription": {
       "type": "string",
-      "default": "Resume subscription"
+      "default": "Resume subscription",
+      "required": true
     }
   }
 }

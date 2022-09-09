@@ -9,19 +9,23 @@
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Delete account"
+      "default": "Delete account",
+      "required": true
     },
     "content": {
       "type": "text",
-      "default": "Are you sure you want to delete your account? This operation is irreversible."
+      "default": "Are you sure you want to delete your account? This operation is irreversible.",
+      "required": true
     },
     "yes": {
       "type": "string",
-      "default": "Yes"
+      "default": "Yes",
+      "required": true
     },
     "no": {
       "type": "string",
-      "default": "No"
+      "default": "No",
+      "required": true
     }
   }
 }

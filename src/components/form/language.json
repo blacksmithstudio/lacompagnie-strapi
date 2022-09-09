@@ -9,14 +9,16 @@
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Spoken languages"
+      "default": "Spoken languages",
+      "required": true
     },
     "options": {
       "displayName": "LanguageOption",
       "type": "component",
       "repeatable": true,
       "component": "form.language-option",
-      "min": 1
+      "min": 1,
+      "required": true
     }
   }
 }

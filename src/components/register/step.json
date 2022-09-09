@@ -9,31 +9,38 @@
   "attributes": {
     "profil": {
       "type": "string",
-      "default": "Profil"
+      "default": "Profil",
+      "required": true
     },
     "details": {
       "type": "string",
-      "default": "Details"
+      "default": "Details",
+      "required": true
     },
     "services": {
       "type": "string",
-      "default": "Services"
+      "default": "Services",
+      "required": true
     },
     "calendar": {
       "type": "string",
-      "default": "Calendar"
+      "default": "Calendar",
+      "required": true
     },
     "medias": {
       "type": "string",
-      "default": "Medias"
+      "default": "Medias",
+      "required": true
     },
     "subscription": {
       "type": "string",
-      "default": "Subscription"
+      "default": "Subscription",
+      "required": true
     },
     "title": {
       "type": "string",
-      "default": "Step"
+      "default": "Step",
+      "required": true
     }
   }
 }

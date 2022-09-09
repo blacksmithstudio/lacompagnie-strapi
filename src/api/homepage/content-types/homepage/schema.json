@@ -23,7 +23,8 @@
         }
       },
       "type": "string",
-      "default": "it's time"
+      "default": "it's time",
+      "required": true
     },
     "topSubText": {
       "pluginOptions": {
@@ -32,7 +33,8 @@
         }
       },
       "type": "string",
-      "default": "to please yourself"
+      "default": "to please yourself",
+      "required": true
     },
     "topEscorts": {
       "displayName": "top-escortes",
@@ -43,7 +45,8 @@
           "localized": true
         }
       },
-      "component": "home.top-escortes"
+      "component": "home.top-escortes",
+      "required": true
     },
     "description": {
       "pluginOptions": {
@@ -51,7 +54,8 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "allGirls": {
       "pluginOptions": {
@@ -60,7 +64,8 @@
         }
       },
       "type": "string",
-      "default": "All gilrs"
+      "default": "All gilrs",
+      "required": true
     },
     "findEscort": {
       "pluginOptions": {
@@ -69,7 +74,8 @@
         }
       },
       "type": "string",
-      "default": "Find an escort"
+      "default": "Find an escort",
+      "required": true
     },
     "seo": {
       "type": "component",
@@ -79,7 +85,8 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": false
     }
   }
 }

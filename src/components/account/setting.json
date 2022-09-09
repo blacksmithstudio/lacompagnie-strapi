@@ -12,10 +12,6 @@
       "type": "component",
       "repeatable": false,
       "component": "account.delete-modal"
-    },
-    "changePassword": {
-      "type": "string",
-      "default": "Change Password"
     }
   }
 }

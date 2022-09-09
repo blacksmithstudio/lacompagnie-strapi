@@ -2,13 +2,15 @@
   "collectionName": "components_form_bodies",
   "info": {
     "displayName": "Body",
-    "icon": "atom"
+    "icon": "atom",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Body"
+      "default": "Body",
+      "required": true
     }
   }
 }

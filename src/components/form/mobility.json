@@ -2,13 +2,15 @@
   "collectionName": "components_form_mobilities",
   "info": {
     "displayName": "Mobility",
-    "icon": "arrow-alt-circle-right"
+    "icon": "arrow-alt-circle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Prestation"
+      "default": "Prestation",
+      "required": true
     }
   }
 }

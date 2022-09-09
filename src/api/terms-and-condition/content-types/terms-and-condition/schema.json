@@ -23,7 +23,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "content": {
       "type": "richtext",
@@ -31,7 +32,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "seo": {
       "type": "component",
@@ -41,7 +43,8 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
     }
   }
 }

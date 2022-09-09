@@ -1,13 +1,15 @@
 {
   "collectionName": "components_form_details",
   "info": {
-    "displayName": "Detail"
+    "displayName": "Detail",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Details"
+      "default": "Details",
+      "required": true
     }
   }
 }

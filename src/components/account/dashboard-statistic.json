@@ -13,11 +13,13 @@
     },
     "visitCurrentMonth": {
       "type": "string",
-      "default": "Visits over the current month:"
+      "default": "Visits over the current month:",
+      "required": true
     },
     "visitSinceCreation": {
       "type": "string",
-      "default": "Profile visits (since creation):"
+      "default": "Profile visits (since creation):",
+      "required": true
     }
   }
 }

@@ -23,7 +23,8 @@
         }
       },
       "type": "string",
-      "default": "E-mail"
+      "default": "E-mail",
+      "required": true
     },
     "password": {
       "pluginOptions": {
@@ -32,7 +33,8 @@
         }
       },
       "type": "string",
-      "default": "Password"
+      "default": "Password",
+      "required": true
     },
     "username": {
       "pluginOptions": {
@@ -41,7 +43,8 @@
         }
       },
       "type": "string",
-      "default": "Username"
+      "default": "Username",
+      "required": true
     },
     "category": {
       "pluginOptions": {
@@ -50,7 +53,8 @@
         }
       },
       "type": "string",
-      "default": "category"
+      "default": "category",
+      "required": true
     },
     "availableTo": {
       "pluginOptions": {
@@ -59,7 +63,8 @@
         }
       },
       "type": "string",
-      "default": "Available To"
+      "default": "Available To",
+      "required": true
     },
     "age": {
       "pluginOptions": {
@@ -68,7 +73,8 @@
         }
       },
       "type": "string",
-      "default": "Age"
+      "default": "Age",
+      "required": true
     },
     "canton": {
       "pluginOptions": {
@@ -77,7 +83,8 @@
         }
       },
       "type": "string",
-      "default": "Canton"
+      "default": "Canton",
+      "required": true
     },
     "phone": {
       "pluginOptions": {
@@ -86,7 +93,8 @@
         }
       },
       "type": "string",
-      "default": "Phone number"
+      "default": "Phone number",
+      "required": true
     },
     "ethnicity": {
       "pluginOptions": {
@@ -95,7 +103,8 @@
         }
       },
       "type": "string",
-      "default": "Ethnicity"
+      "default": "Ethnicity",
+      "required": true
     },
     "height": {
       "pluginOptions": {
@@ -104,7 +113,8 @@
         }
       },
       "type": "string",
-      "default": "Height"
+      "default": "Height",
+      "required": true
     },
     "bodyType": {
       "pluginOptions": {
@@ -113,7 +123,8 @@
         }
       },
       "type": "string",
-      "default": "Body Type"
+      "default": "Body Type",
+      "required": true
     },
     "hairColor": {
       "pluginOptions": {
@@ -122,7 +133,8 @@
         }
       },
       "type": "string",
-      "default": "Hair Color"
+      "default": "Hair Color",
+      "required": true
     },
     "eyeColor": {
       "pluginOptions": {
@@ -131,7 +143,8 @@
         }
       },
       "type": "string",
-      "default": "Eye Color"
+      "default": "Eye Color",
+      "required": true
     },
     "cupSize": {
       "pluginOptions": {
@@ -140,7 +153,8 @@
         }
       },
       "type": "string",
-      "default": "Cup Size"
+      "default": "Cup Size",
+      "required": true
     },
     "name": {
       "pluginOptions": {
@@ -149,7 +163,8 @@
         }
       },
       "type": "string",
-      "default": "Name"
+      "default": "Name",
+      "required": true
     },
     "address": {
       "pluginOptions": {
@@ -158,7 +173,8 @@
         }
       },
       "type": "string",
-      "default": "Address"
+      "default": "Address",
+      "required": true
     },
     "websiteLink": {
       "pluginOptions": {
@@ -167,7 +183,8 @@
         }
       },
       "type": "string",
-      "default": "Website Link "
+      "default": "Website Link ",
+      "required": true
     },
     "schedules": {
       "pluginOptions": {
@@ -176,7 +193,8 @@
         }
       },
       "type": "string",
-      "default": "Schedules"
+      "default": "Schedules",
+      "required": true
     },
     "description": {
       "pluginOptions": {
@@ -185,7 +203,8 @@
         }
       },
       "type": "string",
-      "default": "Description"
+      "default": "Description",
+      "required": true
     },
     "price": {
       "pluginOptions": {
@@ -194,7 +213,8 @@
         }
       },
       "type": "string",
-      "default": "Price"
+      "default": "Price",
+      "required": true
     },
     "about": {
       "pluginOptions": {
@@ -203,7 +223,8 @@
         }
       },
       "type": "string",
-      "default": "About"
+      "default": "About",
+      "required": true
     },
     "from": {
       "pluginOptions": {
@@ -212,7 +233,8 @@
         }
       },
       "type": "string",
-      "default": "From"
+      "default": "From",
+      "required": true
     },
     "currency": {
       "pluginOptions": {
@@ -221,7 +243,8 @@
         }
       },
       "type": "string",
-      "default": "Currency"
+      "default": "Currency",
+      "required": true
     },
     "notes": {
       "pluginOptions": {
@@ -230,7 +253,8 @@
         }
       },
       "type": "string",
-      "default": "Notes"
+      "default": "Notes",
+      "required": true
     },
     "calendly": {
       "pluginOptions": {
@@ -239,7 +263,8 @@
         }
       },
       "type": "string",
-      "default": "Link of your Calendy"
+      "default": "Link of your Calendy",
+      "required": true
     },
     "photo": {
       "pluginOptions": {
@@ -248,7 +273,8 @@
         }
       },
       "type": "string",
-      "default": "Photo(s)"
+      "default": "Photo(s)",
+      "required": true
     },
     "video": {
       "pluginOptions": {
@@ -257,7 +283,8 @@
         }
       },
       "type": "string",
-      "default": "Video(s)"
+      "default": "Video(s)",
+      "required": true
     },
     "promoCode": {
       "pluginOptions": {
@@ -266,7 +293,8 @@
         }
       },
       "type": "string",
-      "default": "Promo Code"
+      "default": "Promo Code",
+      "required": true
     },
     "expertiseLevel": {
       "pluginOptions": {
@@ -275,7 +303,8 @@
         }
       },
       "type": "string",
-      "default": "Expertise level"
+      "default": "Expertise level",
+      "required": true
     },
     "multipleChoice": {
       "pluginOptions": {
@@ -284,7 +313,8 @@
         }
       },
       "type": "string",
-      "default": "Multiple choice"
+      "default": "Multiple choice",
+      "required": true
     },
     "confirmPassword": {
       "pluginOptions": {
@@ -293,7 +323,8 @@
         }
       },
       "type": "string",
-      "default": "Confirm password"
+      "default": "Confirm password",
+      "required": true
     },
     "incall": {
       "pluginOptions": {
@@ -302,7 +333,8 @@
         }
       },
       "type": "string",
-      "default": "Incall"
+      "default": "Incall",
+      "required": true
     },
     "outcall": {
       "pluginOptions": {
@@ -311,7 +343,8 @@
         }
       },
       "type": "string",
-      "default": "Outcall"
+      "default": "Outcall",
+      "required": true
     },
     "newPassword": {
       "pluginOptions": {
@@ -320,7 +353,8 @@
         }
       },
       "type": "string",
-      "default": "New password"
+      "default": "New password",
+      "required": true
     }
   }
 }

@@ -22,7 +22,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subTitle": {
       "pluginOptions": {
@@ -30,7 +31,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "steps": {
       "displayName": "step",
@@ -41,7 +43,8 @@
           "localized": true
         }
       },
-      "component": "register.step"
+      "component": "register.step",
+      "required": true
     },
     "independent": {
       "displayName": "independent",
@@ -52,7 +55,8 @@
           "localized": true
         }
       },
-      "component": "register.independent"
+      "component": "register.independent",
+      "required": true
     },
     "agency": {
       "type": "component",
@@ -62,7 +66,8 @@
           "localized": true
         }
       },
-      "component": "register.agency"
+      "component": "register.agency",
+      "required": true
     },
     "user": {
       "displayName": "user",
@@ -73,7 +78,8 @@
           "localized": true
         }
       },
-      "component": "register.user"
+      "component": "register.user",
+      "required": true
     },
     "registerConfirmationModal": {
       "displayName": "register-confirmation",
@@ -84,7 +90,8 @@
           "localized": true
         }
       },
-      "component": "register.register-confirmation"
+      "component": "register.register-confirmation",
+      "required": true
     },
     "accountConfirmed": {
       "displayName": "AccountConfirmed",
@@ -95,7 +102,8 @@
           "localized": true
         }
       },
-      "component": "register.account-confirmed"
+      "component": "register.account-confirmed",
+      "required": true
     }
   }
 }

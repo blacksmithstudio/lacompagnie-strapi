@@ -23,7 +23,8 @@
         }
       },
       "type": "string",
-      "default": "Confirm"
+      "default": "Confirm",
+      "required": true
     },
     "addOther": {
       "pluginOptions": {
@@ -32,7 +33,8 @@
         }
       },
       "type": "string",
-      "default": "Add other"
+      "default": "Add other",
+      "required": true
     },
     "add": {
       "pluginOptions": {
@@ -41,7 +43,8 @@
         }
       },
       "type": "string",
-      "default": "Add"
+      "default": "Add",
+      "required": true
     },
     "save": {
       "pluginOptions": {
@@ -50,7 +53,8 @@
         }
       },
       "type": "string",
-      "default": "Save"
+      "default": "Save",
+      "required": true
     },
     "cancel": {
       "pluginOptions": {
@@ -59,7 +63,8 @@
         }
       },
       "type": "string",
-      "default": "Cancel"
+      "default": "Cancel",
+      "required": true
     },
     "update": {
       "pluginOptions": {
@@ -68,7 +73,8 @@
         }
       },
       "type": "string",
-      "default": "Update"
+      "default": "Update",
+      "required": true
     },
     "logout": {
       "pluginOptions": {
@@ -77,7 +83,8 @@
         }
       },
       "type": "string",
-      "default": "Logout"
+      "default": "Logout",
+      "required": true
     },
     "goToPay": {
       "pluginOptions": {
@@ -86,7 +93,8 @@
         }
       },
       "type": "string",
-      "default": "Go to pay"
+      "default": "Go to pay",
+      "required": true
     },
     "close": {
       "pluginOptions": {
@@ -95,7 +103,8 @@
         }
       },
       "type": "string",
-      "default": "Close"
+      "default": "Close",
+      "required": true
     },
     "filter": {
       "pluginOptions": {
@@ -104,7 +113,8 @@
         }
       },
       "type": "string",
-      "default": "Filter by"
+      "default": "Filter by",
+      "required": true
     },
     "chooseCanton": {
       "pluginOptions": {
@@ -113,7 +123,8 @@
         }
       },
       "type": "string",
-      "default": "choose a canton"
+      "default": "choose a canton",
+      "required": true
     },
     "upload": {
       "pluginOptions": {
@@ -122,7 +133,8 @@
         }
       },
       "type": "string",
-      "default": "Upload"
+      "default": "Upload",
+      "required": true
     },
     "setAsAvatar": {
       "pluginOptions": {
@@ -131,7 +143,8 @@
         }
       },
       "type": "string",
-      "default": "Set as profile picture"
+      "default": "Set as profile picture",
+      "required": true
     },
     "seeMyPublicProfile": {
       "pluginOptions": {
@@ -140,7 +153,8 @@
         }
       },
       "type": "string",
-      "default": "See my public profile"
+      "default": "See my public profile",
+      "required": true
     },
     "call": {
       "pluginOptions": {
@@ -149,7 +163,8 @@
         }
       },
       "type": "string",
-      "default": "I call"
+      "default": "I call",
+      "required": true
     },
     "detail": {
       "pluginOptions": {
@@ -158,7 +173,8 @@
         }
       },
       "type": "string",
-      "default": "Details"
+      "default": "Details",
+      "required": true
     },
     "subscribe": {
       "pluginOptions": {
@@ -167,7 +183,8 @@
         }
       },
       "type": "string",
-      "default": "Subscribe"
+      "default": "Subscribe",
+      "required": true
     },
     "showMore": {
       "pluginOptions": {
@@ -176,7 +193,8 @@
         }
       },
       "type": "string",
-      "default": "Show more"
+      "default": "Show more",
+      "required": true
     },
     "choose": {
       "pluginOptions": {
@@ -185,7 +203,8 @@
         }
       },
       "type": "string",
-      "default": "Choose"
+      "default": "Choose",
+      "required": true
     },
     "deleteAccount": {
       "pluginOptions": {
@@ -194,7 +213,8 @@
         }
       },
       "type": "string",
-      "default": "Delete account"
+      "default": "Delete account",
+      "required": true
     }
   }
 }

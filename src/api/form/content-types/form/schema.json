@@ -25,7 +25,8 @@
           "localized": true
         }
       },
-      "component": "form.general-info"
+      "component": "form.general-info",
+      "required": true
     },
     "body": {
       "displayName": "Body",
@@ -36,7 +37,8 @@
           "localized": true
         }
       },
-      "component": "form.body"
+      "component": "form.body",
+      "required": true
     },
     "language": {
       "type": "component",
@@ -46,7 +48,8 @@
           "localized": true
         }
       },
-      "component": "form.language"
+      "component": "form.language",
+      "required": true
     },
     "social": {
       "displayName": "Social",
@@ -57,7 +60,8 @@
           "localized": true
         }
       },
-      "component": "form.social"
+      "component": "form.social",
+      "required": true
     },
     "biography": {
       "displayName": "Biography",
@@ -68,7 +72,8 @@
           "localized": true
         }
       },
-      "component": "form.biography"
+      "component": "form.biography",
+      "required": true
     },
     "price": {
       "displayName": "Price",
@@ -79,7 +84,8 @@
           "localized": true
         }
       },
-      "component": "form.price"
+      "component": "form.price",
+      "required": true
     },
     "mobility": {
       "displayName": "Mobility",
@@ -90,7 +96,8 @@
           "localized": true
         }
       },
-      "component": "form.mobility"
+      "component": "form.mobility",
+      "required": true
     },
     "service": {
       "displayName": "Service",
@@ -101,7 +108,8 @@
           "localized": true
         }
       },
-      "component": "form.service"
+      "component": "form.service",
+      "required": true
     },
     "schedule": {
       "displayName": "Schedule",
@@ -112,7 +120,8 @@
           "localized": true
         }
       },
-      "component": "form.schedule"
+      "component": "form.schedule",
+      "required": true
     },
     "media": {
       "displayName": "Media",
@@ -123,7 +132,8 @@
           "localized": true
         }
       },
-      "component": "form.media"
+      "component": "form.media",
+      "required": true
     },
     "paymentSuccess": {
       "displayName": "PayementSuccess",
@@ -134,7 +144,8 @@
           "localized": true
         }
       },
-      "component": "form.payement-success"
+      "component": "form.payement-success",
+      "required": true
     },
     "detail": {
       "displayName": "Detail",
@@ -145,7 +156,8 @@
           "localized": true
         }
       },
-      "component": "form.detail"
+      "component": "form.detail",
+      "required": true
     },
     "password": {
       "displayName": "Password",
@@ -156,7 +168,8 @@
           "localized": true
         }
       },
-      "component": "form.password"
+      "component": "form.password",
+      "required": true
     }
   }
 }

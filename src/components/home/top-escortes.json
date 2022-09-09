@@ -7,13 +7,16 @@
   "options": {},
   "attributes": {
     "top": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "escort": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "noResult": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

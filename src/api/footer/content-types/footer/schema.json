@@ -23,7 +23,8 @@
         }
       },
       "type": "string",
-      "default": "All rights reserved."
+      "default": "All rights reserved.",
+      "required": true
     },
     "privacyPolicies": {
       "pluginOptions": {
@@ -32,7 +33,8 @@
         }
       },
       "type": "string",
-      "default": "Privacy Policies"
+      "default": "Privacy Policies",
+      "required": true
     },
     "contactUs": {
       "pluginOptions": {
@@ -41,7 +43,8 @@
         }
       },
       "type": "string",
-      "default": "contact us"
+      "default": "contact us",
+      "required": true
     },
     "termsAndConditions": {
       "pluginOptions": {
@@ -50,7 +53,8 @@
         }
       },
       "type": "string",
-      "default": "Terms and Conditions"
+      "default": "Terms and Conditions",
+      "required": true
     },
     "socials": {
       "type": "component",

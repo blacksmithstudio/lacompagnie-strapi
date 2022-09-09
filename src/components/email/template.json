@@ -7,13 +7,16 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "button": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subContent": {
       "type": "richtext"

@@ -26,7 +26,8 @@
       },
       "component": "commun.select-option",
       "min": 9,
-      "max": 9
+      "max": 9,
+      "required": true
     },
     "independentCategory": {
       "type": "component",
@@ -38,7 +39,8 @@
       },
       "component": "commun.select-option",
       "max": 4,
-      "min": 4
+      "min": 4,
+      "required": true
     },
     "availableTo": {
       "type": "component",
@@ -50,7 +52,8 @@
       },
       "component": "commun.select-option",
       "max": 3,
-      "min": 3
+      "min": 3,
+      "required": true
     },
     "age": {
       "type": "component",
@@ -62,7 +65,8 @@
       },
       "max": 5,
       "min": 5,
-      "component": "commun.select-option"
+      "component": "commun.select-option",
+      "required": true
     },
     "height": {
       "type": "component",
@@ -74,7 +78,8 @@
       },
       "component": "commun.select-option",
       "max": 4,
-      "min": 4
+      "min": 4,
+      "required": true
     },
     "bodyType": {
       "type": "component",
@@ -86,7 +91,8 @@
       },
       "component": "commun.select-option",
       "max": 5,
-      "min": 5
+      "min": 5,
+      "required": true
     },
     "hairColor": {
       "type": "component",
@@ -96,7 +102,8 @@
           "localized": true
         }
       },
-      "component": "commun.select-option"
+      "component": "commun.select-option",
+      "required": true
     },
     "eyeColor": {
       "type": "component",
@@ -108,7 +115,8 @@
       },
       "component": "commun.select-option",
       "max": 6,
-      "min": 6
+      "min": 6,
+      "required": true
     },
     "cupSize": {
       "type": "component",
@@ -120,17 +128,8 @@
       },
       "component": "commun.select-option",
       "max": 6,
-      "min": 6
-    },
-    "languagesLabel": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "commun.select-option"
+      "min": 6,
+      "required": true
     },
     "service": {
       "type": "component",
@@ -140,7 +139,8 @@
           "localized": true
         }
       },
-      "component": "commun.select-option"
+      "component": "commun.select-option",
+      "required": true
     },
     "agencyCategory": {
       "type": "component",
@@ -152,7 +152,8 @@
       },
       "component": "commun.select-option",
       "max": 3,
-      "min": 3
+      "min": 3,
+      "required": true
     },
     "weekday": {
       "type": "component",
@@ -164,7 +165,8 @@
       },
       "component": "commun.select-option",
       "max": 7,
-      "min": 7
+      "min": 7,
+      "required": true
     },
     "escortIn": {
       "pluginOptions": {
@@ -173,7 +175,8 @@
         }
       },
       "type": "string",
-      "default": "escort in"
+      "default": "escort in",
+      "required": true
     },
     "backSoon": {
       "pluginOptions": {
@@ -182,7 +185,8 @@
         }
       },
       "type": "string",
-      "default": "Back soon"
+      "default": "Back soon",
+      "required": true
     }
   }
 }

@@ -1,16 +1,19 @@
 {
   "collectionName": "components_form_schedules",
   "info": {
-    "displayName": "Schedule"
+    "displayName": "Schedule",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Schedule"
+      "default": "Schedule",
+      "required": true
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

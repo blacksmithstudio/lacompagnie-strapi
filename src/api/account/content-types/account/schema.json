@@ -23,7 +23,8 @@
         }
       },
       "type": "string",
-      "default": "Account"
+      "default": "Account",
+      "required": true
     },
     "menu": {
       "type": "component",
@@ -33,7 +34,8 @@
           "localized": true
         }
       },
-      "component": "account.tabs"
+      "component": "account.tabs",
+      "required": true
     },
     "dashboard": {
       "displayName": "dashboard",
@@ -44,7 +46,8 @@
           "localized": true
         }
       },
-      "component": "account.dashboard"
+      "component": "account.dashboard",
+      "required": true
     },
     "settings": {
       "displayName": "setting",
@@ -55,7 +58,8 @@
           "localized": true
         }
       },
-      "component": "account.setting"
+      "component": "account.setting",
+      "required": true
     },
     "liked": {
       "type": "component",
@@ -65,7 +69,8 @@
           "localized": true
         }
       },
-      "component": "account.liked-profile"
+      "component": "account.liked-profile",
+      "required": true
     }
   }
 }

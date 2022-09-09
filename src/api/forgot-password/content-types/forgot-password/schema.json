@@ -23,7 +23,8 @@
         }
       },
       "type": "string",
-      "default": "Forgot your password ?"
+      "default": "Forgot your password ?",
+      "required": true
     },
     "subTitle": {
       "pluginOptions": {
@@ -32,7 +33,8 @@
         }
       },
       "type": "string",
-      "default": "I enter my email to receive my reset link"
+      "default": "I enter my email to receive my reset link",
+      "required": true
     },
     "successMessage": {
       "pluginOptions": {
@@ -40,7 +42,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "seo": {
       "type": "component",
@@ -50,7 +53,8 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
     }
   }
 }

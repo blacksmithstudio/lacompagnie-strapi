@@ -8,24 +8,29 @@
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Medias"
+      "default": "Medias",
+      "required": true
     },
     "button": {
       "type": "string",
-      "default": "Add medias"
+      "default": "Add medias",
+      "required": true
     },
     "modalContent": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "photo": {
       "type": "component",
       "repeatable": false,
-      "component": "form.media-item"
+      "component": "form.media-item",
+      "required": true
     },
     "video": {
       "type": "component",
       "repeatable": false,
-      "component": "form.media-item"
+      "component": "form.media-item",
+      "required": true
     }
   }
 }

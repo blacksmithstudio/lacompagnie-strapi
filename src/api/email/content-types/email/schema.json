@@ -23,7 +23,8 @@
         }
       },
       "type": "text",
-      "default": "If the button does not work, you can copy and paste this link into the address bar of your browser."
+      "default": "If the button does not work, you can copy and paste this link into the address bar of your browser.",
+      "required": true
     },
     "footer": {
       "pluginOptions": {
@@ -31,7 +32,8 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "forgotPassword": {
       "displayName": "Template",
@@ -42,7 +44,8 @@
           "localized": true
         }
       },
-      "component": "email.template"
+      "component": "email.template",
+      "required": true
     },
     "signUp": {
       "type": "component",
@@ -52,7 +55,8 @@
           "localized": true
         }
       },
-      "component": "email.template"
+      "component": "email.template",
+      "required": true
     },
     "confirmEmail": {
       "type": "component",
@@ -62,7 +66,8 @@
           "localized": true
         }
       },
-      "component": "email.template"
+      "component": "email.template",
+      "required": true
     }
   }
 }

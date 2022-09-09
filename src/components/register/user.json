@@ -10,7 +10,8 @@
     "button": {
       "type": "component",
       "repeatable": false,
-      "component": "register.button"
+      "component": "register.button",
+      "required": true
     }
   }
 }

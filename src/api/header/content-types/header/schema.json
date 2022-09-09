@@ -23,7 +23,8 @@
         }
       },
       "type": "string",
-      "default": "Login"
+      "default": "Login",
+      "required": true
     },
     "register": {
       "pluginOptions": {
@@ -32,7 +33,8 @@
         }
       },
       "type": "string",
-      "default": "Register"
+      "default": "Register",
+      "required": true
     },
     "account": {
       "pluginOptions": {
@@ -50,7 +52,8 @@
         }
       },
       "type": "string",
-      "default": "Home"
+      "default": "Home",
+      "required": true
     },
     "girls": {
       "pluginOptions": {
@@ -59,7 +62,8 @@
         }
       },
       "type": "string",
-      "default": "Girls"
+      "default": "Girls",
+      "required": true
     },
     "sm": {
       "pluginOptions": {
@@ -68,7 +72,8 @@
         }
       },
       "type": "string",
-      "default": "SM"
+      "default": "SM",
+      "required": true
     },
     "trans": {
       "pluginOptions": {
@@ -77,7 +82,8 @@
         }
       },
       "type": "string",
-      "default": "Trans"
+      "default": "Trans",
+      "required": true
     },
     "boys": {
       "pluginOptions": {
@@ -86,7 +92,8 @@
         }
       },
       "type": "string",
-      "default": "Boys"
+      "default": "Boys",
+      "required": true
     },
     "agencies": {
       "pluginOptions": {
@@ -95,7 +102,8 @@
         }
       },
       "type": "string",
-      "default": "Agencies"
+      "default": "Agencies",
+      "required": true
     }
   }
 }

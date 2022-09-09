@@ -4,7 +4,8 @@
   "info": {
     "singularName": "agency",
     "pluralName": "agencies",
-    "displayName": "Page Agence"
+    "displayName": "Page Agence",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -23,7 +24,8 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
     },
     "details": {
       "pluginOptions": {
@@ -32,7 +34,8 @@
         }
       },
       "type": "string",
-      "default": "Details"
+      "default": "Details",
+      "required": true
     },
     "about": {
       "pluginOptions": {
@@ -41,7 +44,8 @@
         }
       },
       "type": "string",
-      "default": "About"
+      "default": "About",
+      "required": true
     },
     "price": {
       "pluginOptions": {
@@ -50,7 +54,8 @@
         }
       },
       "type": "string",
-      "default": "Our prices"
+      "default": "Our prices",
+      "required": true
     },
     "schedule": {
       "pluginOptions": {
@@ -59,7 +64,8 @@
         }
       },
       "type": "string",
-      "default": "Our schedules"
+      "default": "Our schedules",
+      "required": true
     }
   }
 }

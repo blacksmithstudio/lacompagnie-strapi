@@ -25,7 +25,9 @@
           "localized": true
         }
       },
-      "component": "subscription.subscription"
+      "component": "subscription.subscription",
+      "required": true,
+      "min": 1
     },
     "agency": {
       "type": "component",
@@ -35,7 +37,9 @@
           "localized": true
         }
       },
-      "component": "subscription.subscription"
+      "component": "subscription.subscription",
+      "required": true,
+      "min": 1
     }
   }
 }

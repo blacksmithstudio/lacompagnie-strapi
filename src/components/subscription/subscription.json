@@ -7,15 +7,18 @@
   "options": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "duration": {
       "type": "integer",
-      "min": 0
+      "min": 0,
+      "required": true
     },
     "amount": {
       "type": "decimal",
-      "min": 0
+      "min": 0,
+      "required": true
     },
     "currency": {
       "type": "enumeration",
@@ -24,11 +27,13 @@
         "EUR",
         "USD"
       ],
-      "default": "CHF"
+      "default": "CHF",
+      "required": true
     },
     "canPause": {
       "type": "boolean",
-      "default": true
+      "default": true,
+      "required": true
     },
     "note": {
       "type": "string"

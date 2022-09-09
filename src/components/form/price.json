@@ -2,13 +2,15 @@
   "collectionName": "components_form_prices",
   "info": {
     "displayName": "Price",
-    "icon": "anchor"
+    "icon": "anchor",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "default": "Price"
+      "default": "Price",
+      "required": true
     }
   }
 }
