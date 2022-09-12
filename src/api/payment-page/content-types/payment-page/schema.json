@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "payment_pages",
+  "info": {
+    "singularName": "payment-page",
+    "pluralName": "payment-pages",
+    "displayName": "Payment page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true
+    },
+    "payNow": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Pay now",
+      "required": true
+    },
+    "succeeded": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Successful payment!",
+      "required": true
+    },
+    "processing": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Payment in progress, please wait...",
+      "required": true
+    }
+  }
+}
