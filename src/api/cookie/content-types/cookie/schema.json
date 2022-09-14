@@ -44,6 +44,15 @@
       "type": "string",
       "default": "Reject",
       "required": true
+    },
+    "googleAnalyticsID": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
