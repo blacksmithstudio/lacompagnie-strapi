@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotion_codes",
+  "info": {
+    "singularName": "promotion-code",
+    "pluralName": "promotion-codes",
+    "displayName": "Promotion code"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "expiredAt": {
+      "type": "date",
+      "required": true
+    },
+    "percentageDiscount": {
+      "type": "integer",
+      "min": 0,
+      "required": true,
+      "max": 100
+    }
+  }
+}

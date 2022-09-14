@@ -215,6 +215,16 @@
       "type": "string",
       "default": "Delete account",
       "required": true
+    },
+    "apply": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Apply",
+      "required": true
     }
   }
 }

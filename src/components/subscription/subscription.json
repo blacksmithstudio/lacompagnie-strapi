@@ -37,6 +37,11 @@
     },
     "note": {
       "type": "string"
+    },
+    "promotionCode": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::promotion-code.promotion-code"
     }
   }
 }
